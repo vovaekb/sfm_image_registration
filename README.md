@@ -1,6 +1,7 @@
 # sfm_image_registration
 
 This repository provides a solution to the task of image registration: given two images of the same object captured at different viewpoints estimate the pose of image A given the pose of B.
+The final solution using ORB feature descriptors and BFMatcher in OpenCV to calculate the fundamental matrix.
 First compile executable:
 
     g++ test_sfm.cpp -o test_sfm `pkg-config --cflags --libs opencv`
